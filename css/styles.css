@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 /* Codigo general del body */
 
 html{
@@ -211,8 +213,13 @@ main{
     margin-left: 3em;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 2em;
+    align-items: flex-start;
+    font-family: 'Itim', cursive;
+    gap: 3em;
+}
+
+.acerca{
+    max-width: 70%;
 }
   
 .titulo{
@@ -258,25 +265,26 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-family: 'Itim', cursive;
     width: 40%;
     padding: 2em;
     gap: 2em;
 }
 
 .trabajo h2{
-    font-size: 3em;
+    font-size: 40px !important;
 }
 
 .trabajo h3{
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .trabajo p{
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
   
 .experiencia h2{
-    font-size: 2.5em;
+    font-size: 1.4em;
 }
 
 /* Codigo Proyectos */
@@ -300,8 +308,10 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: 'Itim', cursive;
     padding: 1em;
     gap: 3em;
+    height: auto;
 }
   
 .imgProyecto img{
@@ -322,13 +332,13 @@ main{
 }
   
 .titulo h2{
-    font-size: 3em;
+    font-size: 40px !important;
     text-align: center;
 }
   
 .contenido h3{
-    font-size: 2em;
-    margin-bottom: 1em;
+    font-size: 1.7em;
+    gap: 20px;
 }
   
 .tecnologias{
@@ -339,14 +349,15 @@ main{
 .tecnologias ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    font-size: 1.5em;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 1.4em;
     width: 20em;
     margin-bottom: 1em;
 }
 
 #texto{
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 
@@ -368,6 +379,7 @@ main{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    font-family: 'Itim', cursive;
     width: 100%;
     gap: 5em;
     padding: 2em;
@@ -388,19 +400,15 @@ main{
 }
 
 .estudio h2{
-    font-size: 3em;
+    font-size: 40px !important;
 }
 
 .estudio h3{
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .estudio p{
-    font-size: 1.5em;
-}
-  
-.experiencia h2{
-    font-size: 3em;
+    font-size: 1.4em;
 }
 
 /* Codigo Skills */
@@ -443,17 +451,13 @@ main{
     width: 5em;
 }
 
-#typescript img{
+#Width7em img{
     width: 7em;
 }
 
 #jira img{
     width: 10em;
     margin-top: 1em;
-}
-
-#trello img{
-    width: 7em;
 }
 
 #trello h6{
@@ -470,23 +474,19 @@ main{
     background-color: rgba(255, 255, 255, 0.363);
     box-shadow: 5px 3px 10px 2px #000000be ;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 2em;
     color: aliceblue;
-    gap: 2.5em;
     width: 100em;
     height: 45em;
     color: #000000;
 }
 
-
-.form-imagen img{
-    width: 27em;
-    margin-left: 3em;
-    border-radius: 1em;
-    box-shadow: 0 2px 20px 10px #e49cee;
+.form{
+    font-family: 'Itim', cursive;
+    width: 50%;
 }
 
 .contacto{
